@@ -7,7 +7,7 @@ def drawoctagon():
     for x in range(8):
         turtle.forward(100)
         turtle.left(45)
-
+# draw faster
 turtle.speed(500)
 def goto(x,y):
     turtle.penup()
@@ -18,7 +18,7 @@ turtle.color('blue')
 turtle.begin_fill()
 
 turtle.end_fill()
-
+# moves turtle to a new location
 turtle.penup()
 turtle.left(180)
 turtle.forward(180)
